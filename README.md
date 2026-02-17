@@ -1,4 +1,4 @@
-# cis_libs - Cisoko Library System & Framework Bridge
+# cis_libs - EKODE Library System & Framework Bridge
 
 ## Overview
 
@@ -57,11 +57,11 @@ Framework.GiveMoney(playerId, 1000, "cash")
 
 ## Documentation
 
-For detailed documentation on all available functions and features, please visit our [official documentation](https://docs.cisoko.net).
+For detailed documentation on all available functions and features, please visit our [official documentation](https://docs.ekode.net).
 
 ## Support
 
-For support, please join our [Discord server](https://discord.gg/cisoko).
+For support, please join our [Discord server](https://discord.gg/ekode).
 
 ## License
 
@@ -69,7 +69,7 @@ This project is licensed under a custom license. Please see the [LICENSE.md](LIC
 
 ## Credits
 
-Developed by Cisoko. Special thanks to the FiveM community for inspiration and support.
+Developed by EKODE. Special thanks to the FiveM community for inspiration and support.
 
 ---
 

@@ -4,7 +4,7 @@ Discord = {}
 
 Discord.UseDiscordLogs = true --Set this to true if you want to use discord logs.
 Discord.Thumbnail = "https://i.imgur.com/s1Y6ykF.png" --Big icon for the embed.
-Discord.FooterText = "fivem.cisoko.net - Shaping the Future of Roleplaying Games" --Footer text for the embed.
+Discord.FooterText = "fivem.ekode.net - Shaping the Future of Roleplaying Games" --Footer text for the embed.
 Discord.FooterIcon = "https://i.imgur.com/Ah7nsiv.png" --Footer icon for the embed.
 
 Discord.DiscordLogsLinks = {

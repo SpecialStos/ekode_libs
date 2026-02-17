@@ -1,17 +1,17 @@
 Custom License for cis_libs
 
-Copyright (c) 2024 Cisoko
+Copyright (c) 2024 EKODE
 
 Terms and Conditions
 
 1. Usage: This resource is open source and freely available for use.
 
-2. Attribution: Users of this resource must give appropriate credit to Cisoko as the original creator. 
+2. Attribution: Users of this resource must give appropriate credit to EKODE as the original creator. 
    It is strictly prohibited to claim this resource as your own work.
 
 3. Distribution: 
    - Direct downloads of this resource are only permitted from the official GitHub repository.
-   - Redistribution through any other means is not allowed without explicit written permission from Cisoko.
+   - Redistribution through any other means is not allowed without explicit written permission from EKODE.
 
 4. Modification: Users are allowed to modify the resource for personal use, but distribution of 
    modified versions is subject to the same terms as the original resource.
@@ -25,9 +25,9 @@ Terms and Conditions
    from the use of the resource.
 
 7. Documentation and Support: 
-   - Official documentation can be found at https://docs.cisoko.net
-   - Our store is located at https://fivem.cisoko.net
-   - Our Discord: https://discord.gg/cisoko
+   - Official documentation can be found at https://docs.ekode.net
+   - Our store is located at https://fivem.ekode.net
+   - Our Discord: https://discord.gg/ekode
 
 9. Disclaimer and Legal Notice:
    a) Polite Notice: We kindly request that all users respect the terms of this license. Your cooperation 
@@ -37,4 +37,4 @@ Terms and Conditions
 
 By using this resource, you agree to abide by the terms and conditions of this license.
 
-For any questions regarding this license, please contact Cisoko.
+For any questions regarding this license, please contact EKODE.

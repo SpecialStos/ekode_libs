@@ -1,18 +1,29 @@
--- cis_libs/server/initialize.lua
+-- ekode_libs/server/initialize.lua
 
-RegisterServerEvent("cis_libs:server:getData")
-AddEventHandler("cis_libs:server:getData", function()
+-- EKODE Bridge Authorization Check
+CreateThread(function()
+    Wait(2000) -- Wait for bridge to initialize
+    if not exports['ekode_bridge']:IsResourceAuthorized(GetCurrentResourceName()) then
+        print('^1[EKODE] ERROR: Resource not authorized. Check your subscription and server entitlements.^0')
+        -- Disable resource functionality
+        return
+    end
+    print('^2[EKODE] Shared Libraries authorized and connected to EKODE platform^0')
+end)
+
+RegisterServerEvent("ekode_libs:server:getData")
+AddEventHandler("ekode_libs:server:getData", function()
     local src = source
 
     local data = {
         Config = Config,
         Security = Security,
-        DoorData = exports['cis_libs']:GetAllDoorData()
+        DoorData = exports['ekode_libs']:GetAllDoorData()
     }
 
-    TriggerClientEvent("cis_libs:client:getData", src, data)
+    TriggerClientEvent("ekode_libs:client:getData", src, data)
     
     if Config.Printing and Config.Printing.Debug then
-        exports['cis_libs']:LogDebug("Sent initial data including door information to player " .. src)
+        exports['ekode_libs']:LogDebug("Sent initial data including door information to player " .. src)
     end
 end)

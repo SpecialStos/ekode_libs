@@ -1,15 +1,16 @@
 fx_version 'cerulean'
 game 'gta5'
 
-name "Cisoko - Library System - Framework Bridge"
-description "A library system & framework bridge for FiveM resources."
-author "Cisoko"
+name "EKODE - Shared Framework Library"
+description "The foundation that powers every EKODE resource - shared utilities, UI components, and framework compatibility."
+author "EKODE"
 version "0.1.0"
 lua54 'yes'
 
 dependencies {
+    "ekode_bridge",
     '/onesync',
-    '/server:4500',
+    '/server:4500'
 }
 
 client_scripts {
