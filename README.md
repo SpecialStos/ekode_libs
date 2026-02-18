@@ -61,7 +61,7 @@ For detailed documentation on all available functions and features, please visit
 
 ## Support
 
-For support, please join our [Discord server](https://discord.gg/ekode).
+For support, please join our [Discord server](https://discord.gg/cisoko).
 
 ## License
 
