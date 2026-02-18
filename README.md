@@ -2,7 +2,7 @@
 
 ## Overview
 
-cis_libs is a comprehensive library system and framework bridge designed for FiveM resources. It provides a unified interface for common FiveM development tasks, supports multiple frameworks, and includes various utility functions to streamline resource development.
+ekode_libs is a comprehensive library system and framework bridge designed for FiveM resources. It provides a unified interface for common FiveM development tasks, supports multiple frameworks, and includes various utility functions to streamline resource development.
 
 ## Features
 
@@ -18,12 +18,12 @@ cis_libs is a comprehensive library system and framework bridge designed for Fiv
 ## Installation
 
 1. Clone this repository into your FiveM resources folder.
-2. Add `ensure cis_libs` to your server.cfg file.
+2. Add `ensure ekode_libs` to your server.cfg file.
 3. Configure the `configs/master_config.lua` file to match your server setup.
 
 ## Configuration
 
-Edit the following configuration files to customize cis_libs for your server:
+Edit the following configuration files to customize ekode_libs for your server:
 
 - `configs/master_config.lua`: Main configuration file
 - `configs/discordLogs_config.lua`: Discord logging settings
@@ -34,7 +34,7 @@ Edit the following configuration files to customize cis_libs for your server:
 ### Client-side
 
 ```lua
-local Framework = exports['cis_libs']:GetFramework()
+local Framework = exports['ekode_libs']:GetFramework()
 
 -- Example: Show a notification
 Framework.ShowNotification("Hello, world!")
@@ -46,7 +46,7 @@ local hasItem = Framework.HasItem("water")
 ### Server-side
 
 ```lua
-local Framework = exports['cis_libs']:GetFramework()
+local Framework = exports['ekode_libs']:GetFramework()
 
 -- Example: Get all players
 local players = Framework.GetPlayers()
@@ -61,7 +61,7 @@ For detailed documentation on all available functions and features, please visit
 
 ## Support
 
-For support, please join our [Discord server](https://discord.gg/cisoko).
+For support, please join our [Discord server](https://discord.gg/ekode).
 
 ## License
 
@@ -75,5 +75,5 @@ Developed by EKODE. Special thanks to the FiveM community for inspiration and su
 
 **Note: Alpha Version**
 
-This is currently an alpha version of cis_libs. We are actively working on expanding and improving the library system. In the coming months, we plan to update and enhance cis_libs to become the most comprehensive library system available for FiveM development. Stay tuned for regular updates and new features!
+This is currently an alpha version of ekode_libs. We are actively working on expanding and improving the library system. In the coming months, we plan to update and enhance ekode_libs to become the most comprehensive library system available for FiveM development. Stay tuned for regular updates and new features!
 
