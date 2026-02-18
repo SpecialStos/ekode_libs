@@ -1,4 +1,4 @@
-# cis_libs - EKODE Library System & Framework Bridge
+# EKODE Libs — Shared Library & Framework Bridge
 
 ## Overview
 
